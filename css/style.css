@@ -26,10 +26,10 @@ main {
 
 main .container-cards {
   display: flex;
+  padding-top: 10px;
   flex-wrap: wrap;
   width: 70%;
   margin: 0 auto;
-  padding: 4em;
 }
 
 main .container-cards .cards {

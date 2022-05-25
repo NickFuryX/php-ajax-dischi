@@ -8,7 +8,7 @@ var app = new Vue({
       .get("./server/api.php")
       .then((response) => {
         console.log(response);
-        this.cards = response.data.results;
+        this.cards = response.data;
         console.log(this.cards);
       })
       .catch((error) => {
